@@ -9,4 +9,5 @@ jobs:
     - name: Pull Request Analytics
       uses: AlexSim93/pull-request-analytics-action@v4.8.0
       with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_OWNERS_REPOS: bnevis-i/kubernetes
